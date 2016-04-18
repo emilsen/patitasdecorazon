@@ -1,0 +1,224 @@
+body{
+background-image: url(../img/fondo.png);
+background-repeat: repeat;}
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+.imagen { 
+	width: 80%;
+ 	margin: 0 auto;
+	}
+
+.mascota {
+	width: 600px;
+}
+
+h1 {
+	font-family: 'Verdana', cursive;
+	color: white;
+	font-size: 40px;
+	text-align: center; 
+	padding-top: 15px;
+	}
+
+h2 {
+	font-family: cursive;
+	color: #388E3C;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	}
+
+h3 {
+	color: white;
+	font-size: 30px;
+	text-align: center; 
+	}
+
+header{
+	width: 100%;
+	background: #388E3C;
+	border-radius: 10px 10px 0 0;
+}
+
+.frase {
+	color: #C8E6C9;
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+	padding: 15px;
+	}
+
+nav {
+	height: 50px;
+	background: #4CAF50;
+	border-radius: 10px;
+}
+nav:hover {
+	background: #C8E6C9;
+}
+
+ul {
+	margin: auto;
+	padding-top: 4px;
+	}
+
+li {
+	float: left;
+	width: 120px;
+	list-style-type: none;
+	font-size: 18px;
+	padding: 8px;
+    text-transform: uppercase;
+    background: #388E3C;
+	margin: 3px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+li a {
+		text-decoration: none;
+		color: white;
+		font-weight: 600;
+}
+.menu {
+	margin: 0 auto;
+}
+section{
+	width: 700px;
+	background: #C8E6C9;
+	height: 600px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 5px;
+}
+
+.parrafo {
+	padding: 20px;
+}
+
+aside{
+
+	width: 280px;
+	background: #4CAF50;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 7px;
+	border-radius: 5px;
+}
+aside p {
+	text-align: left;
+	color: #212121;
+	padding: 15px;
+	font-size: 13px;
+}
+
+aside li {
+	width: 40px;
+}
+aside li img {
+	width: 35px;
+	float: left;
+}
+
+.recuperado {
+	width: 150px;
+	margin: 0;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+footer{
+width: 1000px;
+height: 80px;
+background: #388E3C;
+float: left;
+margin-top: 15px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+footer p{
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	color: #C8E6C9;
+}
+
+/*    pagina servicios */
+
+.servicios {
+	width: 300px;
+	padding: 20px;
+	float: left;
+}
+
+.img-serv {
+	float: left;
+	width: 250px;
+	padding: 30px;
+	border-radius: 40px
+}
+
+/*    pagina contacto */
+
+.contacto {
+	margin-left: 50px;
+	padding: 10px;
+}
+
+
+/**
+ * Css Galeria Perros y Gatos
+ */
+
+.container {
+  float: left;
+  position: relative;
+  width: 160px;
+  height: 200px;
+  margin: 20px;
+  color: #388E3C;
+  background: #C8E6C9;
+  transition: all 0.5s ease-out;
+  perspective: 1800;
+  perspective-origin: top;
+  text-decoration: none;     	
+}
+.galerias {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+}
+strong {
+  color: green;
+}
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #444;
+  padding: 5px;
+
+}
+.img-gal {
+	width: 150px;
+
+}
+
+.container:hover .image {
+  transform: rotateX(36deg);
+  transition: all 0.4s ease;
+  box-shadow: 0 6px 5px rgba(0,0,0,0.2);	
+ }
+.container:hover {
+  background-color: white;
+  transition: background 0.45s ease-in;
+}
